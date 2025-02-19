@@ -1,0 +1,31 @@
+<div class="card2-container2"></div>
+<div class="card2">
+  <div class="card-header">
+    <span class="limited-edition">Product</span>
+  </div>
+  <img src="img/SHOWCASE/ANTSJOP copy.png" alt="NFT 3" class="card2-image">
+  <p class="eth-price">WAGYU TOWN </p>
+  <p class="timer">COMING SOON</p>
+  <button class="bid-now">XEM THÊM</button>
+  <div class="info-box">
+    <h3>Thông Tin</h3>
+    <p><span class="owner-text">Owner:</span> TIGER</p>
+    <p><span class="Description-text">Description:</span>Máy chủ mang phong cách nhập vai chân thực</p>
+    <p><span class="Discord-text">Discord:</span> NGƯNG HOẠT ĐỘNG</p>
+</div>
+</div>
+<div class="card2">
+  <div class="card-header">
+    <span class="limited-edition">Product</span>
+  </div>
+  <img src="img/SHOWCASE/ANTSJOP copy.png" alt="NFT 3" class="card2-image">
+  <p class="eth-price">WAGYU TOWN </p>
+  <p class="timer">COMING SOON</p>
+  <button class="bid-now">XEM THÊM</button>
+  <div class="info-box">
+    <h3>Thông Tin</h3>
+    <p><span class="owner-text">Owner:</span> TIGER</p>
+    <p><span class="Description-text">Description:</span>Máy chủ mang phong cách nhập vai chân thực</p>
+    <p><span class="Discord-text">Discord:</span> NGƯNG HOẠT ĐỘNG</p>
+</div>
+</div>
