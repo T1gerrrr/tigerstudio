@@ -22,7 +22,7 @@
   }
   header, .page, .card-container {
     opacity: 0;
-    transform: translateY(20px); /* Di chuyển nhẹ từ dưới lên */
+    transform: translateY(20px);
     animation: fadeUp 1s ease-out forwards;
   }
   
@@ -90,7 +90,7 @@
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: -600px;
-    filter: brightness(0.5); /* Làm tối ảnh header */
+    filter: brightness(0.5);
   }
   
   .intro {
@@ -105,7 +105,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/'); /* Thêm đường dẫn hình ảnh nền */
+    background-image: url('/img/');
     background-size: cover;
     filter: blur(8px);
     z-index: -1;
@@ -138,16 +138,16 @@
     font-size: 4em; /* FIVEM SERVICE sẽ lớn hơn */
     font-weight: bold;
     background: linear-gradient(90deg, #2e0f0f, #ffffff); 
-    -webkit-background-clip: text; /* Áp dụng gradient cho chữ */
-    color: transparent; /* Làm cho chữ trở nên trong suốt */
+    -webkit-background-clip: text; 
+    color: transparent;
   }
   
   h2:last-of-type {
     font-size: 4em; /* FIVEM SERVICE sẽ lớn hơn */
     font-weight: bold;
     background: linear-gradient(0deg, #5e1407, #ff9c9c); 
-    -webkit-background-clip: text; /* Áp dụng gradient cho chữ */
-    color: transparent; /* Làm cho chữ trở nên trong suốt */
+    -webkit-background-clip: text;
+    color: transparent; 
   }
 
   .intro-content {
@@ -193,7 +193,7 @@
     text-align: center;
     padding: 30px 0;
     width: 100%;
-    margin-top: auto; /* Đẩy footer xuống cuối trang */
+    margin-top: auto;
   }
 
   .image-container {
@@ -203,7 +203,7 @@
     align-items: center;
     height: 60vh;
     width: 100vh;
-    background-color: #24242400; /* Để nền tối */
+    background-color: #24242400;
   }
   
  .image {
@@ -212,7 +212,7 @@
   object-fit: cover;
   border-radius: 10px;
   opacity: 1;
-  transition: opacity 1s ease-in-out; /* Thêm hiệu ứng chuyển đổi khi thay đổi ảnh */
+  transition: opacity 1s ease-in-out; 
 }
 
   
@@ -228,41 +228,40 @@
   }
 
   .intro-images:hover .intro-image {
-    transform: scale(1.1); /* Phóng to ảnh khi hover */
-    opacity: 1; /* Làm ảnh rõ hơn */
+    transform: scale(1.1); 
+    opacity: 1; 
   }
   .image-1 {
 
-    z-index: 3; /* Tấm ảnh đầu tiên ở trên cùng */
+    z-index: 3; 
   }
   
   .image-2 {
     z-index: 2;
-    left: 20px; /* Dịch chuyển tấm ảnh thứ 2 sang trái một chút */
+    left: 20px;
   }
   
   .image-3 {
     z-index: 1;
-    left: 40px; /* Dịch chuyển tấm ảnh thứ 3 sang trái một chút */
+    left: 40px;
   }
   
-  /* Khi hover vào ảnh, chúng sẽ tỏa ra */
+  
   .intro-images:hover .intro-image {
-    transform: scale(1.1); /* Phóng to ảnh khi hover */
-    opacity: 1; /* Làm ảnh rõ hơn */
+    transform: scale(1.1);
+    opacity: 1; 
   }
-  
-  /* Đảm bảo ảnh không bị tràn khi chưa hover */
+
   .intro-images:hover .image-1 {
-    left: -20px; /* Dịch chuyển ảnh thứ nhất sang trái */
+    left: -20px; 
   }
   
   .intro-images:hover .image-2 {
-    left: 20px; /* Dịch chuyển ảnh thứ hai sang phải */
+    left: 20px;
   }
   
   .intro-images:hover .image-3 {
-    left: 40px; /* Dịch chuyển ảnh thứ ba sang phải */
+    left: 40px;
   }
   .btn-contact {
         /* justify-content: flex-end; */
@@ -279,7 +278,7 @@
     outline-offset: .1em;
     transition: 0.3s;
     border-radius: 10px;
-    text-decoration: none; /* Xóa dấu gạch dưới */
+    text-decoration: none; 
   }
   
   .btn-contact:hover,
@@ -329,7 +328,7 @@
   .stat-label {
     font-size: 1.2em;
     margin-top: 10px;
-    color: #b60000; /* Màu xám nhạt cho nhãn */
+    color: #b60000; 
   }
   .card-container {
     grid-template-columns: repeat(4, 1fr);
@@ -354,12 +353,12 @@
     color: #fff;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     position: relative;
-    margin-bottom: 30px; /* Thêm khoảng cách dưới mỗi thẻ */
+    margin-bottom: 30px; 
     transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   .card:hover {
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6); /* Tăng độ bóng và thay đổi màu sắc */
-    transform: translateY(-10px); /* Di chuyển thẻ lên một chút khi hover */
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    transform: translateY(-10px);
   }
   .card:hover,
   .card:focus-visible {
@@ -415,7 +414,7 @@
     background-color: #ff6347;
   }
   .info-box {
-    display: none; /* Mặc định ẩn bảng thông tin */
+    display: none;
     position: absolute;
     bottom: 90px;
     left: 50%;
@@ -429,19 +428,18 @@
   }
   
   .card:hover .info-box {
-    display: block; /* Hiển thị bảng khi hover vào thẻ */
+    display: block;
   }
   .owner-text {
-    color: #ff6347; /* Màu đỏ cho chữ "Owner" */
-    font-weight: bold; /* Làm chữ "Owner" đậm */
+    color: #ff6347; 
+    font-weight: bold;
   }
 .Description-text {
-  color: #b8ff47; /* Màu đỏ cho chữ "Owner" */
-  font-weight: bold; /* Làm chữ "Owner" đậm */
-}
+  color: #b8ff47; 
+  font-weight: bold;
 .Discord-text {
-  color: #47daff; /* Màu đỏ cho chữ "Owner" */
-  font-weight: bold; /* Làm chữ "Owner" đậm */
+  color: #47daff; 
+  font-weight: bold; 
 }
 
 .card2-container {
@@ -466,7 +464,7 @@
   color: #fff;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   position: relative;
-  margin-bottom: 30px; /* Thêm khoảng cách dưới mỗi thẻ */
+  margin-bottom: 30px; 
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -476,8 +474,8 @@
   margin-top: 15px;
 }
 .card2:hover {
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6); /* Tăng độ bóng và thay đổi màu sắc */
-  transform: translateY(-10px); /* Di chuyển thẻ lên một chút khi hover */
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6); 
+  transform: translateY(-10px); 
 }
 .card2:hover,
 .card2:focus-visible {
@@ -493,7 +491,7 @@
 
 .contact-section {
   display: grid;
-  grid-template-columns: repeat(1, 1fr); /* 2 cột trên mỗi hàng */
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
 }
 
